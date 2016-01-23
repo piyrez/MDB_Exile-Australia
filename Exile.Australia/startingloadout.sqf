@@ -1,0 +1,25 @@
+uiSleep 2;
+if (ExileClientPlayerMoney > 0) then {
+        uiSleep 1;
+		hint "Gear Supplied"; 
+		clearWeaponCargo player;
+		clearMagazineCargo player;
+		removeBackpackGlobal player;
+		player forceAddUniform "Exile_Uniform_ExileCustoms";
+		player addBackpack "B_Carryall_oucamo";
+		player addVest "V_TacVest_blk_POLICE";
+		player addWeapon "ItemRadio";
+		player addWeapon "ItemGPS";
+		player addWeapon 'Exile_Item_XM8';
+		player addWeapon "ItemCompass";
+		player addWeapon "Rangefinder";
+		player addItemToBackpack "Exile_Item_BBQSandwich_Cooked";
+		player addItemToBackpack "Exile_Item_Energydrink";
+		player addItemToBackpack "Exile_Item_InstaDoc";
+		player addItemToBackpack "hgun_Rook40_F";
+		player addItemToBackpack "U_O_OfficerUniform_ocamo";
+		player addItemToVest "16Rnd_9x21_Mag";
+		player addItemToBackpack "CUP_arifle_M4A1_camo";
+		player addItemToBackpack "30Rnd_556x45_Stanag";
+		player addItemToBackpack "30Rnd_556x45_Stanag";
+};
