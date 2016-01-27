@@ -6425,17 +6425,17 @@ class CfgTraders
 			"MuzzleAttachments",
 			"OpticAttachments",
 			"CUP_Attachments",
-			"HLC_Attachments",
+			//"HLC_Attachments",
 			"Ammunition",
 			"CUP_Ammunition",
-			"HLC_Ammunition",
+			//"HLC_Ammunition",
 			"Pistols",
 			"SubMachineGuns",
 			"LightMachineGuns",
 			"AssaultRifles",
 			"SniperRifles",
 			"CUP_Weapons",
-			"HLC_Weapons"
+			//"HLC_Weapons"
 		};
 	};
 
