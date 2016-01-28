@@ -144,8 +144,8 @@ class Mission
 		"CUP_WheeledVehicles_UAZ",
 		"CUP_WheeledVehicles_Ural",
 		"CUP_Creatures_People_Core",
-		"CUP_Creatures_People_Military_DummyInfantrySet"
-		//"tryk_backpack"
+		"CUP_Creatures_People_Military_DummyInfantrySet",
+		"hlcweapons_ar15"
 	};
 	addOnsAuto[]=
 	{
@@ -182,7 +182,7 @@ class Mission
 			side="GUER";
 			class Vehicles
 			{
-				items=100;
+				items=101;
 				class Item0
 				{
 					position[]={7160.2227,293.97488,7745.1333};
@@ -1183,6 +1183,18 @@ class Mission
 					vehicle="Exile_Unit_GhostPlayer";
 					player="PLAY CDG";
 					skill=0.60000002;
+				};
+				class Item100
+				{
+					position[]={7171.4414,294.00958,7732.6641};
+					special="NONE";
+					id=100;
+					side="LOGIC";
+					vehicle="HeadlessClient_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="HC";
+					forceHeadlessClient=1;
 				};
 			};
 		};

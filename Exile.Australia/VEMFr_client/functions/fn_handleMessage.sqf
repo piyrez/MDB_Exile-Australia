@@ -15,7 +15,7 @@ if not(_txt isEqualTo "") then
             {
                 if not isNull _dsp then
                 {
-                    playSound"ReadOutClick"
+                    playSound "ReadOutClick"
                 };
             };
             uiSleep 0.05;
@@ -49,7 +49,7 @@ if not(_txt isEqualTo "") then
                 {
                     if not isNull _dsp then
                     {
-                        playSound"ReadOutHideClick1"
+                        playSound "ReadOutHideClick1"
                     };
                 };
                 uiSleep 0.05;
@@ -95,7 +95,7 @@ if not(_txt isEqualTo "") then
             _ctrlTag ctrlSetPosition [(ctrlPosition _ctrlTag) select 0, (ctrlPosition _ctrlTag) select 1, (ctrlPosition _ctrlTag) select 2, 0.03 * safezoneH];
             _ctrlTag ctrlCommit 0.3;
             uiSleep 0.3;
-            _ctrlTag ctrlSetText toString [91,86,69,77,70,93];
+            _ctrlTag ctrlSetText toString [86,69,77,70,114];
             _ctrl = _dsp displayCtrl 1000;
             _ctrl ctrlSetPosition [(ctrlPosition _ctrl) select 0, (ctrlPosition _ctrl) select 1, 0.4375 * safezoneW, (ctrlPosition _ctrl) select 3];
             _ctrl ctrlCommit 0.3;

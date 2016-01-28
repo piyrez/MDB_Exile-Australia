@@ -1744,7 +1744,7 @@ class CfgExileArsenal
 	//class Exile_Item_Shovel						{ quality = 1; price = 700; };
 	//class Exile_Item_Wrench						{ quality = 1; price = 250; };
 	//class Exile_Item_SleepingMat					{ quality = 1; price = 1250; };
-	//class Exile_Item_ToiletPaper					{ quality = 1; price = 5; };
+	class Exile_Item_ToiletPaper					{ quality = 1; price = 500; };
 	//class Exile_Item_ZipTie						{ quality = 1; price = 250; };
 
 	///////////////////////////////////////////////////////////////////////////////
@@ -3191,11 +3191,14 @@ class CfgExileCustomCode
 
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
-	//MDB Server Customs
+	//MDB Client Customs
 	ExileClient_object_item_craft = "custom\overwrites\exile_client\ExileClient_object_item_craft.sqf";
-	ExileServer_object_tree_network_chopTreeRequest = "custom\overwrites\exile_server\ExileServer_object_tree_network_chopTreeRequest.sqf";
 	ExileClient_gui_wasteDumpDialog_show = "custom\overwrites\exile_client\ExileClient_gui_wasteDumpDialog_show.sqf";
 	ExileClient_gui_traderDialog_updateInventoryDropdown = "custom\overwrites\exile_client\ExileClient_gui_traderDialog_updateInventoryDropdown.sqf";
+
+	//MDB Server Customs
+	ExileServer_object_tree_network_chopTreeRequest = "custom\overwrites\exile_server\ExileServer_object_tree_network_chopTreeRequest.sqf";
+	//ExileServer_system_rcon_thread_check = "custom\overwrites\exile_server\ExileServer_system_rcon_thread_check.sqf";
 	
 	//xm8Apps Customs
 	ExileClient_gui_xm8_slide_apps_onOpen = "xm8Apps\ExileClient_gui_xm8_slide_apps_onOpen.sqf";
@@ -5228,6 +5231,7 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
+			"Exile_Item_ToiletPaper",
 			"Exile_Item_Matches",
 			"Exile_Item_CookingPot",
 			"Exile_Item_CanOpener",
@@ -6320,7 +6324,7 @@ class CfgTraderCategories
 			"CUP_B_Mi17_medevac_CDF",
 			"CUP_B_Mi24_D_CDF",
 			"CUP_B_Mi35_CZ",
-			//"CUP_B_UH1Y_GUNSHIP_F",
+			"CUP_B_UH1Y_GUNSHIP_F",
 			"CUP_B_UH1Y_MEV_F",
 			"CUP_B_UH1Y_UNA_F",
 			"CUP_B_UH60L_FFV_US",
