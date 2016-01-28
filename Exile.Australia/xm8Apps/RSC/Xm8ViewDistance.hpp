@@ -97,5 +97,15 @@ class XM8ViewDistance
 			w = 16 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
 		};
+		class GoBackBtn: RscButton
+		{
+			idc = 1610;
+			text = "Go Back"; //--- ToDo: Localize;
+			x = 0.582479 * safezoneW + safezoneX;
+			y = 0.650859 * safezoneH + safezoneY;
+			w = 0.0618589 * safezoneW;
+			h = 0.0329866 * safezoneH;
+			onButtonClick = "((ctrlParent (_this select 0)) closeDisplay 8457);  execVM'XM8APPS\Scripts\open_Main_Menu.sqf';";
+		};
 	};
 };

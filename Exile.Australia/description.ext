@@ -3,6 +3,7 @@
 #include "xm8Apps\Xm8Apps.hpp"
 #include "xm8Apps\RSC\Xm8ViewDistance.hpp"
 #include "xm8Apps\Xm8ViewRules.hpp"
+#include "xm8Apps\Xm8ViewFAQ.hpp"
 
 
 // https://community.bistudio.com/wiki/Description.ext#forceRotorLibSimulation
