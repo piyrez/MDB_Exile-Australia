@@ -23,66 +23,66 @@ execVM"custom\deploy_bike.sqf";
 */
 
 //App 1 
-_app1Text = "App 1";
+_app1Text = "Rules";
 _app1Logo = "";
 app1_action = {
-
+	execVM "xm8Apps\custom\features.sqf";
 };
 
 //App 2 
-_app2Text = "App 2";
+_app2Text = "F.A.Q.";
 _app2Logo = "";
 app2_action = {
-
+	execVM "xm8Apps\custom\frequent_questions.sqf";
 };
 
 //App 3 
-_app3Text = "App 3";
+_app3Text = "Call ATV";
 _app3Logo = "";
 app3_action = {
-
+	
 };
 
 //App 4 
-_app4Text = "App 4";
-_app4Logo = "";
+_app4Text = "View Distance";
+_app4Logo = getText (configfile >> "CfgWeapons" >> "Binocular" >> "picture");
 app4_action = {
-
+	execVM "xm8Apps\Apps\ViewDistance.sqf";
 };
 
 //App 5 
-_app5Text = "App 5";
+_app5Text = "";
 _app5Logo = "";
 app5_action = {
 
 };
 
 //App 6 
-_app6Text = "App 6";
+_app6Text = "";
 _app6Logo = "";
 app6_action = {
 
 };
 
 //App 7 
-_app7Text = "View Distance";
-_app7Logo = getText (configfile >> "CfgWeapons" >> "Binocular" >> "picture");
+_app7Text = "";
+_app7Logo = "";
 app7_action = {
-	execVM "xm8Apps\Apps\ViewDistance.sqf";
+
 };
 
 //App 8 
-_app8Text = "Attach Chemlight";
+_app8Text = "";
 _app8Logo = "";
 app8_action = {
-	[] execVM "xm8Apps\custom\attachChemLight.sqf";
+
 };
 
 //App 9 
-_app9Text = "Server Rules";
-_app9Logo = "\Exile_AiA_Building_Addon\images\UI\logo_small.paa";
+_app9Text = "Attach Chemlight";
+_app9Logo = "";
 app9_action = {
-	execVM "xm8Apps\custom\features.sqf";
+	[] execVM "xm8Apps\custom\attachChemLight.sqf";
 };
 /////////////////
 //CONFIG END
