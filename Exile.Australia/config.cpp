@@ -1736,31 +1736,36 @@ class CfgExileArsenal
 	class Exile_Item_Pliers							{ quality = 1; price = 350; };
 	class Exile_Item_Grinder						{ quality = 1; price = 1250; };
 	//class Exile_Item_Foolbox						{ quality = 1; price = 4000; };
-	//class Exile_Item_CordlessScrewdriver			{ quality = 1; price = 750; };
-	//class Exile_Item_FireExtinguisher				{ quality = 1; price = 650; };
+	//class Exile_Item_CordlessScrewdriver					{ quality = 1; price = 750; };
+	//class Exile_Item_FireExtinguisher					{ quality = 1; price = 650; };
 	//class Exile_Item_Hammer						{ quality = 1; price = 600; };
-	//class Exile_Item_OilCanister					{ quality = 1; price = 1750; };
-	//class Exile_Item_Screwdriver					{ quality = 1; price = 250; };
+	//class Exile_Item_OilCanister						{ quality = 1; price = 1750; };
+	//class Exile_Item_Screwdriver						{ quality = 1; price = 250; };
 	//class Exile_Item_Shovel						{ quality = 1; price = 700; };
 	//class Exile_Item_Wrench						{ quality = 1; price = 250; };
+<<<<<<< HEAD
 	//class Exile_Item_SleepingMat					{ quality = 1; price = 1250; };
 	class Exile_Item_ToiletPaper					{ quality = 1; price = 500; };
+=======
+	//class Exile_Item_SleepingMat						{ quality = 1; price = 1250; };
+	class Exile_Item_ToiletPaper						{ quality = 1; price = 500; };
+>>>>>>> origin/test_server
 	//class Exile_Item_ZipTie						{ quality = 1; price = 250; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Navigation
 	///////////////////////////////////////////////////////////////////////////////
-	class ItemWatch									{ quality = 1; price = 2; };	
-	class ItemGPS									{ quality = 1; price = 40; };
-	class ItemMap									{ quality = 1; price = 6; };
-	class ItemCompass								{ quality = 1; price = 6; };
-	class ItemRadio									{ quality = 1; price = 40; };
-	class Binocular									{ quality = 1; price = 40; };
-	class Rangefinder								{ quality = 2; price = 200; };
+	class ItemWatch								{ quality = 1; price = 2; };	
+	class ItemGPS								{ quality = 1; price = 40; };
+	class ItemMap								{ quality = 1; price = 6; };
+	class ItemCompass							{ quality = 1; price = 6; };
+	class ItemRadio								{ quality = 1; price = 40; };
+	class Binocular								{ quality = 1; price = 40; };
+	class Rangefinder							{ quality = 2; price = 200; };
 	class Laserdesignator							{ quality = 3; price = 750; };
 	class Laserdesignator_02						{ quality = 3; price = 750; };
 	class Laserdesignator_03						{ quality = 3; price = 750; };
-	class NVGoggles									{ quality = 2; price = 100; };
+	class NVGoggles								{ quality = 2; price = 100; };
 	class NVGoggles_INDEP							{ quality = 2; price = 100; };
 	class NVGoggles_OPFOR							{ quality = 2; price = 100; };
 	class Exile_Item_XM8							{ quality = 2; price = 20; };
