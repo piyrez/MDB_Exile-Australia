@@ -42,8 +42,8 @@ _shorttext4     = "Support the server and help it stay online!";
 _posText4        = [0.8,0.5,0.28];
 
 
-_title5         = "Custom Scripts";
-_shorttext5     = "R3F_LOG<br />Igiload<br />AI Missions<br />Player Markers<br />Status Bar<br /> ";
+_title5         = "";
+_shorttext5     = "";
 _posText5        = [0.8,0.5,0.335];
 
 
